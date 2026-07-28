@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nickolaide Andrey Panaligan | Frontend Developer",
-  description: "Frontend Developer & 3rd Year IT Student. I build responsive and user-friendly web applications using React and modern web technologies.",
-  icons: { icon: "/profile.png" },
+  description: "Frontend Developer & 4th Year IT Student. I build responsive and user-friendly web applications using React and modern web technologies.",
+  icons: { icon: "/application.jpg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

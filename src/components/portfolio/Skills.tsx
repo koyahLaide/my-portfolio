@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, FileCode2, Palette, GitBranch, Server } from "lucide-react";
+import { Code2, FileCode2, Palette, GitBranch, Server, Wind } from "lucide-react";
 
 const skills = [
   { name: "React", icon: Code2, desc: "Components, hooks, state management" },
   { name: "JavaScript", icon: FileCode2, desc: "ES6+, DOM, async/await" },
   { name: "HTML", icon: Code2, desc: "Semantic, accessible markup" },
   { name: "CSS", icon: Palette, desc: "Flexbox, Grid, responsive design" },
+  { name: "Tailwind CSS", icon: Wind, desc: "Utility-first styling, responsive design" },
   { name: "GitHub", icon: GitBranch, desc: "Version control, collaboration" },
   { name: "Node.js", icon: Server, desc: "Backend basics, REST APIs" },
 ];

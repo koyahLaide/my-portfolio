@@ -24,7 +24,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
-            Open to Internships & Freelance
+            Open to Frontend & Web Dev — Freelance/Part-time
           </motion.div>
         </motion.div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-lg text-muted-foreground font-medium mb-6"
         >
-          Frontend Developer &nbsp;|&nbsp; 3rd Year IT Student
+          Frontend Developer &nbsp;|&nbsp; 4th Year IT Student
         </motion.p>
 
         <motion.p

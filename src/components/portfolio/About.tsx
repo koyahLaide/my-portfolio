@@ -42,7 +42,7 @@ export default function About() {
             className="md:col-span-3 space-y-4 text-muted-foreground leading-relaxed"
           >
             <p>
-              I am a 3rd-year IT student specializing in frontend development. I build responsive and user-friendly web applications using React and modern web technologies.
+              I am a 4th-year IT student specializing in frontend development. I build responsive and user-friendly web applications using React and modern web technologies.
             </p>
             <p>
               I am currently working on real-world systems and continuously improving my skills to become a professional frontend developer. I love turning ideas into clean, functional interfaces that people enjoy using.

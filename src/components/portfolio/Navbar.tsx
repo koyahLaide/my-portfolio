@@ -3,6 +3,7 @@
 import { useState, useEffect, useSyncExternalStore } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon, Menu, X } from "lucide-react";
 
@@ -94,6 +95,12 @@ export default function Navbar() {
               )}
             </button>
           ))}
+          <Link
+            href="/resume"
+            className="px-4 py-2 text-sm font-medium rounded-lg text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Resume
+          </Link>
           {mounted && (
             <Button
               variant="ghost"
@@ -147,6 +154,13 @@ export default function Navbar() {
                   {link.label}
                 </motion.button>
               ))}
+              <Link
+                href="/resume"
+                onClick={() => setIsMobileOpen(false)}
+                className="text-left px-4 py-3 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+              >
+                Resume
+              </Link>
             </div>
           </motion.div>
         )}
