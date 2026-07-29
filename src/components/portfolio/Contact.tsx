@@ -17,7 +17,7 @@ export default function Contact() {
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">Contact</span>
           <h2 className="text-3xl sm:text-4xl font-bold mt-2 mb-4">Get In Touch</h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            I&apos;m open to frontend and web dev freelance work, part-time roles, and collaboration.
+            I&apos;m open to frontend freelance work, part-time roles, and collaboration.
           </p>
         </motion.div>
 

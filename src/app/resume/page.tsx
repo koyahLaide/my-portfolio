@@ -23,7 +23,7 @@ const experience = [
     ],
   },
   {
-    title: "Freelance Web Developer",
+    title: "Freelance Frontend Developer",
     company: "Self-Employed",
     period: "2024 – Present",
     bullets: [
@@ -34,7 +34,7 @@ const experience = [
     ],
   },
   {
-    title: "Web Developer (Projects)",
+    title: "Frontend Developer (Projects)",
     company: "Academic / Personal Projects",
     period: "2023 – Present",
     bullets: [
@@ -125,7 +125,7 @@ export default function Resume() {
             </div>
           </div>
           <Button asChild className="gap-2 shrink-0">
-            <a href="/Nickolaide_Panaligan_Frontend_Developer_Resume_Updated.pdf" download>
+            <a href="/Nickolaide_Panaligan_CV.pdf" download>
               <FileDown className="h-4 w-4" />
               Download CV
             </a>
