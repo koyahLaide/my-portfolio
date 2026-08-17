@@ -100,7 +100,7 @@ export default function Resume() {
         {/* Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
           <div className="relative w-24 h-24 rounded-2xl overflow-hidden border-2 border-border shrink-0">
-            <Image src="/application.jpg" alt="Nickolaide Panaligan" fill className="object-cover" />
+            <Image src="/application.jpg" alt="Nickolaide Panaligan" fill sizes="96px" className="object-cover" />
           </div>
           <div className="space-y-2 flex-1">
             <h1 className="text-3xl font-bold">Nickolaide Andrey Panaligan</h1>
