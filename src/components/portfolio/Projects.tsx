@@ -20,7 +20,7 @@ const projects = [
     description:
       "SEO analytics dashboard for an e-commerce SaaS, built during a frontend developer internship. Designed and built 8 fully-wired UI tabs from scratch — including loading skeletons and empty states — replacing 11 hardcoded mock values with live, real-time data.",
     tags: ["Next.js 14", "TypeScript", "Tailwind", "UI Components", "Data Visualization"],
-    status: "Postponed" as const,
+    status: "Completed" as const,
     gradient: "from-blue-500/20 to-indigo-600/20",
     isPrivate: true,
     details: {
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Shopify merchant analytics dashboard built during a frontend developer internship. Designed and built a Customer Journey Timeline UI inside the customer profile view — a vertical event timeline with typed icons and synced tab state — and shipped a full brand design system across the product.",
     tags: ["Next.js", "TypeScript", "Tailwind", "UI/UX", "Design Systems"],
-    status: "Ongoing" as const,
+    status: "Completed" as const,
     gradient: "from-amber-500/20 to-orange-600/20",
     isPrivate: true,
   },
@@ -51,7 +51,7 @@ const projects = [
     description:
       "A capstone ticketing system for CvSU's General Services Office. Reports move through a 7-stage review-and-repair workflow across four role-based dashboards — Student, Faculty, GSO Staff, and Admin — built with Next.js, Prisma, and Supabase.",
     tags: ["Next.js", "Prisma", "Supabase", "NextAuth", "Tailwind"],
-    status: "Ongoing" as const,
+    status: "Completed" as const,
     gradient: "from-emerald-500/20 to-teal-600/20",
     githubUrl: "https://github.com/koyahLaide/CvSU-Facility-Services-and-Maintenance-Request-System",
     details: {
