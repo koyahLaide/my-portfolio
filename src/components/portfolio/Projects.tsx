@@ -22,6 +22,7 @@ const projects = [
     tags: ["Next.js 14", "TypeScript", "Tailwind", "UI Components", "Data Visualization"],
     status: "Completed" as const,
     gradient: "from-blue-500/20 to-indigo-600/20",
+    privateNote: "Private repository — internship project",
     isPrivate: true,
     details: {
       highlights: [] as string[],
@@ -35,6 +36,7 @@ const projects = [
     tags: ["Next.js", "TypeScript", "Tailwind", "UI/UX", "Design Systems"],
     status: "Completed" as const,
     gradient: "from-amber-500/20 to-orange-600/20",
+    privateNote: "Private repository — internship project",
     isPrivate: true,
   },
   {
@@ -45,6 +47,8 @@ const projects = [
     status: "Completed" as const,
     gradient: "from-violet-500/20 to-purple-600/20",
     githubUrl: "https://github.com/koyahLaide/HRIS",
+    isPrivate: true,
+    privateNote: "Private repository",
   },
   {
     title: "CvSU Facility Services and Maintenance Request System",
@@ -54,6 +58,8 @@ const projects = [
     status: "Completed" as const,
     gradient: "from-emerald-500/20 to-teal-600/20",
     githubUrl: "https://github.com/koyahLaide/CvSU-Facility-Services-and-Maintenance-Request-System",
+    isPrivate: true,
+    privateNote: "Private repository — capstone project",
     details: {
       highlights: [
         "Built a role-based system with four dashboards (Student, Faculty, GSO Staff, Admin) around a 7-stage report lifecycle, from submission through review to resolution",
@@ -128,7 +134,7 @@ export default function Projects() {
                   {project.isPrivate ? (
                     <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
                       <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="11" width="18" height="10" rx="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg>
-                      Private repository — internship project
+                      {project.privateNote ?? "Private repository"}
                     </span>
                   ) : (
                     <Button size="sm" variant="outline" className="gap-1.5" asChild>

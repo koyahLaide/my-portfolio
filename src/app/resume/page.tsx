@@ -125,7 +125,7 @@ export default function Resume() {
             </div>
           </div>
           <Button asChild className="gap-2 shrink-0">
-            <a href="/Nickolaide_Panaligan_CV.pdf" download>
+            <a href="/Panaligan_Nickolaide_Frontend_Developer_CV.pdf" download>
               <FileDown className="h-4 w-4" />
               Download CV
             </a>
