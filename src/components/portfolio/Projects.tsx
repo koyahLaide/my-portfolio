@@ -13,8 +13,25 @@ import {
   DialogDescription,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import CustomerJourneyTimeline from "./CustomerJourneyTimeline";
 
-const projects = [
+type Project = {
+  title: string;
+  description: string;
+  tags: string[];
+  status: "Completed";
+  gradient: string;
+  privateNote?: string;
+  isPrivate?: boolean;
+  githubUrl?: string;
+  details?: {
+    highlights: string[];
+    images: string[];
+    demo?: "customer-journey";
+  };
+};
+
+const projects: Project[] = [
   {
     title: "Mvolo Dashboard — Organic Intelligence",
     description:
@@ -38,6 +55,15 @@ const projects = [
     gradient: "from-amber-500/20 to-orange-600/20",
     privateNote: "Private repository — internship project",
     isPrivate: true,
+    details: {
+      highlights: [
+        "Designed and built a Customer Journey Timeline UI for the customer profile view — a vertical event layout with typed icons and tab state synced to the active filter",
+        "Shipped a full brand design system (color, type, spacing, and components) across the product's UI",
+        "Contributed to a shared production codebase alongside 11 other contributors using Git and GitHub",
+      ],
+      images: [],
+      demo: "customer-journey",
+    },
   },
   {
     title: "HRIS Data Dashboard",
@@ -176,6 +202,15 @@ export default function Projects() {
                                 />
                               </div>
                             ))}
+                          </div>
+                        )}
+                        {project.details.demo === "customer-journey" && (
+                          <div>
+                            <h4 className="text-sm font-semibold mb-1">Interactive demo</h4>
+                            <p className="text-xs text-muted-foreground mb-3">
+                              A recreation of the Customer Journey Timeline I built for the customer profile view, running on sample data.
+                            </p>
+                            <CustomerJourneyTimeline />
                           </div>
                         )}
                         {project.details.highlights.length > 0 && (
