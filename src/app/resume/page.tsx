@@ -14,7 +14,7 @@ const experience = [
   {
     title: "Frontend Developer Intern",
     company: "Layerflow",
-    period: "April 2026 – Present",
+    period: "May 2026 – October 2026",
     bullets: [
       "Designed and built 8 fully-wired dashboard UI tabs from scratch — including loading skeletons and empty states — replacing hardcoded mock data with live, real-time data",
       "Designed a Customer Journey Timeline UI for the customer profile view, with a vertical event layout and synced tab state",
