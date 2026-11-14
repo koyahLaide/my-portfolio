@@ -71,7 +71,6 @@ export default function Navbar() {
           whileTap={{ scale: 0.95 }}
         >
           <span className="text-primary">Nickolaide</span>
-          <span className="text-muted-foreground">.dev</span>
         </motion.button>
 
         <div className="hidden md:flex items-center gap-1">

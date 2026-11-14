@@ -84,7 +84,6 @@ export default function Resume() {
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="text-lg font-bold">
             <span className="text-primary">NAP</span>
-            <span className="text-muted-foreground">.dev</span>
           </Link>
           <Link
             href="/"
