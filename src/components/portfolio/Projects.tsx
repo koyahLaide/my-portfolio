@@ -19,7 +19,7 @@ type Project = {
   title: string;
   description: string;
   tags: string[];
-  status: "Completed";
+  status: "Completed" | "Ongoing" | "Postponed";
   gradient: string;
   privateNote?: string;
   isPrivate?: boolean;
@@ -81,7 +81,7 @@ const projects: Project[] = [
     description:
       "A capstone ticketing system for CvSU's General Services Office. Reports move through a 7-stage review-and-repair workflow across four role-based dashboards — Student, Faculty, GSO Staff, and Admin — built with Next.js, Prisma, and Supabase.",
     tags: ["Next.js", "Prisma", "Supabase", "NextAuth", "Tailwind"],
-    status: "Completed" as const,
+    status: "Ongoing" as const,
     gradient: "from-emerald-500/20 to-teal-600/20",
     githubUrl: "https://github.com/koyahLaide/CvSU-Facility-Services-and-Maintenance-Request-System",
     isPrivate: true,
